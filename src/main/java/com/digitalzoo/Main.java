@@ -1,0 +1,9 @@
+package com.digitalzoo;
+
+import javax.swing.SwingUtilities;
+
+public class Main {
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new ZooFrame().setVisible(true));
+    }
+}
